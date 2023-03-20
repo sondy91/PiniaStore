@@ -1,5 +1,5 @@
 import { defineStore, acceptHMRUpdate } from "pinia";
-export const useAuthUserStore = defineStore("authUser", { 
+export const useAuthUserStore = defineStore("authUserStore", { 
   state: () => {
     return {
       username: "asonderman"
